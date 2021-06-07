@@ -20,9 +20,9 @@ private TreeNode root;//instance variable
 			if(root == null) {
 				return;
 			}
-
-			inOrder(root.left);
+			
 			System.out.print(root.data + " ");
+			inOrder(root.left);
 			inOrder(root.right);
 		}
 
